@@ -11,13 +11,31 @@ nav ul li{
 span{
   float:right;
 }
-.icon{
-  width: 30px;
-  height: 30px;
+.icon:hover{
+  opacity:.75
+  width: 10px;
+  height: 10px;
 }
 
   p {
       background-color: #00f0ff;
       margin: 0 auto;
       width: 75%;
+  }
+  .project-image{
+    margin: 0 10px;
+    width: 200px;
+    height: 200px;
+    opacity: 0.75;
+    transition: box-shadow 0.5, opacity 0.5;
+  }
+
+  h1{
+  color:blue;
+  transition: color 1s;
+
+  }
+.project-image:hover{
+    color:#ff0000;
+    box-shadow: 0 0 5px 5px #555555;
   }
